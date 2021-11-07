@@ -9,11 +9,11 @@ Install the necessary package :
 
 **Windows**
 
-    py -m pip install -r setup/requirements.txt
+    py -3 -m pip install -r setup\requirements.txt
     
 **Linux**
 
-    python -m pip install -r setup/requirements.txt
+    python3 -m pip install -r setup/requirements.txt
     
     
 Start the bot :
