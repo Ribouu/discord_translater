@@ -30,6 +30,8 @@ Start the bot :
     pyw lib/main.pyw
 
 ## Credits
-Created by Ribou ([Twitter](ribou.fr/twitter),[Twitch](ribou.fr/twitch))
+Created by Ribou ([Twitter](ribou.fr/twitter), [Twitch](ribou.fr/twitch))
+
 Documentation of [discord.py](https://discordpy.readthedocs.io/en/stable)
+
 Videos on YouTube to understand how API work.
