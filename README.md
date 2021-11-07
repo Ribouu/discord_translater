@@ -1,6 +1,6 @@
 # discord_translater
 Simple bot that sends sentences when someone in particular writes a particulary word.
-
+Feel free to use the code.
 ## Setup and Run
 
 Requires **Python 3.7+**. You can download the latest version of Python [here](https://www.python.org/downloads/).
