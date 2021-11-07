@@ -5,6 +5,8 @@ Feel free to use the code.
 
 Requires **Python 3.7+**. You can download the latest version of Python [here](https://www.python.org/downloads/).
 
+I recommend working in a **virtual environment**. 
+
 Install the necessary package :
 
 **Windows**
