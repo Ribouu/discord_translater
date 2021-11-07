@@ -15,7 +15,8 @@ Install the necessary package :
 
     python3 -m pip install -r setup/requirements.txt
     
-    
+ 
+ 
 Start the bot :
 
   To run it in the terminal :
@@ -27,3 +28,8 @@ Start the bot :
   To run it in the background :
   
     pyw lib/main.pyw
+
+## Credits
+Created by Ribou ([Twitter](ribou.fr/twitter),[Twitch](ribou.fr/twitch))
+Documentation of [discord.py](https://discordpy.readthedocs.io/en/stable)
+Videos on YouTube to understand how API work.
