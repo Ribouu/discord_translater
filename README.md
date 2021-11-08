@@ -1,4 +1,7 @@
 # discord_translater
+![traducteur-removebg-preview (1)](https://user-images.githubusercontent.com/76816773/140748275-658fdc5b-c974-495e-9e82-6571fc73661a.png)
+
+
 Simple bot that sends sentences when someone in particular writes a particulary word.
 Feel free to use the code.
 I know it's simple, but you can use it as a base for something else.
