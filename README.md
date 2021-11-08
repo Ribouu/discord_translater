@@ -18,7 +18,8 @@ Install the necessary package :
 
     python3 -m pip install -r setup/requirements.txt
     
-In first, you need to create a new application on the [discord developer website](discord.com/developers/applications). Once you have created it, add bot to the app in bot section. You can turn off "public bot" if you don't want other people to add your bot to their servers. Give the administrator permission to the bot. Then, below the name of the bot, you can copy the token needed in the program to run the bot.
+In first, you need to create a new application on the [discord developer website](discord.com/developers/applications). Once you have created it, add bot to the app in bot section. You can turn off "public bot" if you don't want other people to add your bot to their servers. Give the administrator permission to the bot. Then, below the name of the bot, you can copy the token needed in the program to run the bot. 
+To add the bot to whatever server you want, go to the OAuth2 section, click bot in the scopes panel. You just have to access the given link to choose the desired server.
  
 Start the bot :
 
