@@ -2,7 +2,7 @@
 ![traducteur-removebg-preview (1)](https://user-images.githubusercontent.com/76816773/140748275-658fdc5b-c974-495e-9e82-6571fc73661a.png)
 
 
-Simple bot that sends sentences when someone in particular writes a particulary word.
+Simple bot that sends sentences when someone in particular writes a particular word.
 Feel free to use the code.
 I know it's simple, but you can use it as a base for something else.
 The extension of the file is .pyw because I chose to run it in the background, without any window. You can change it into .py if you want to.
