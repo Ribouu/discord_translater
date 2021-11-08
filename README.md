@@ -2,6 +2,7 @@
 Simple bot that sends sentences when someone in particular writes a particulary word.
 Feel free to use the code.
 I know it's simple, but you can use it as a base for something else.
+The extension of the file is .pyw because I chose to run it in the background, without any window. You can change it into .py if you want to.
 ## Setup and Run
 
 Requires **Python 3.7+**. You can download the latest version of Python [here](https://www.python.org/downloads/).
