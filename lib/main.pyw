@@ -11,8 +11,8 @@ client = discord.Client()
 
 # Words that trigger the bot
 words = [ # Examples in french
-        "je re","Je re",
-        "je reviens", "revenir"
+        "je re",
+        "je reviens", "je vais revenir"
         ]
 
 # Another scenario
@@ -47,7 +47,7 @@ async def on_message(message):
         # We go through the words list
         for i in range(len(words)):
             # If a word matches with a word in the message content :
-            if words[i] in message.content:
+            if words[i] in message.content.lower():
                 # The bot answers with a random answer of the answers list
                 await message.channel.send(random.choice(answers))
                 # Then we break the for loop.
