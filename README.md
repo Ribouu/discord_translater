@@ -35,13 +35,13 @@ Start the bot :
 
 -  To run it in the terminal :
   
-    py lib/main.pyw &
+        py lib/main.pyw &
   
   Do ctrl-C to stop it.
   
 -  To run it in the background :
   
-    pyw lib/main.pyw
+        pyw lib/main.pyw
 
 ## Credits
 Created by Ribou ([Twitter](ribou.fr/twitter), [Twitch](ribou.fr/twitch))
