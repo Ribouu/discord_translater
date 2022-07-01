@@ -43,6 +43,8 @@ Start the bot :
   
         pyw lib/main.pyw
 
+You can also run it by double-clicking on main.pyw.
+
 ## Credits
 Created by Ribou ([Twitter](ribou.fr/twitter), [Twitch](ribou.fr/twitch))
 
