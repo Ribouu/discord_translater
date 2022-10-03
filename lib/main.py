@@ -2,12 +2,10 @@
 import discord
 import random
 import os
-from dotenv import load_dotenv
 
 # We'll need the user id and a client id for the bot
-load_dotenv()
-client_id = os.environ['BOT_TOKEN']
-user_id = os.environ['USER_TOKEN']
+client_id = os.getenv('BOT_TOKEN')
+user_id = os.getenv('USER_TOKEN')
 
 # Initializing discord client
 client = discord.Client(intents=discord.Intents.default())
