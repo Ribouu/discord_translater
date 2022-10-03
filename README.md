@@ -5,7 +5,8 @@
 Simple bot that sends sentences when someone in particular writes a particular word.
 Feel free to use the code.
 I know it's simple, but you can use it as a base for something else.
-The extension of the file is .pyw because I chose to run it in the background, without any window. You can change it into .py if you want to.
+The code is running online with Heroku. If you want to run it on your own computer, I advise changing the extension of the file to .pyw to run it in the background, without any window. You can change it into .py if you want to keep the possibility to stop it easily. Otherwise, you can stop it in the task manager (for Windows, I don't know for Linux and MacOs).
+
 ## Setup and Run
 
 Requires **Python 3.7+**. You can download the latest version of Python [here](https://www.python.org/downloads/).
@@ -35,15 +36,15 @@ Start the bot :
 
 -  To run it in the terminal :
   
-        py lib/main.pyw &
+        py lib/app.pyw &
   
   Do ctrl-C to stop it.
   
 -  To run it in the background :
   
-        pyw lib/main.pyw
+        pyw lib/app.pyw
 
-You can also run it by double-clicking on main.pyw.
+You can also run it by double-clicking on app.pyw.
 
 ## Credits
 Created by Ribou ([Twitter](https://www.ribou.fr/twitter), [Twitch](https://www.ribou.fr/twitch))
