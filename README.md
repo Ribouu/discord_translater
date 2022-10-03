@@ -46,7 +46,7 @@ Start the bot :
 You can also run it by double-clicking on main.pyw.
 
 ## Credits
-Created by Ribou ([Twitter](www.ribou.fr/twitter), [Twitch](www.ribou.fr/twitch))
+Created by Ribou ([Twitter](https://www.ribou.fr/twitter), [Twitch](https://www.ribou.fr/twitch))
 
 Documentation of [discord.py](https://discordpy.readthedocs.io/en/stable)
 
