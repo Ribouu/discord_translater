@@ -4,8 +4,8 @@ import random
 import os
 
 # We'll need the user id and a client id for the bot
-client_id = os.getenv('BOT_TOKEN')
-user_id = os.getenv('USER_TOKEN')
+client_id = os.environ['BOT_TOKEN']
+user_id = os.environ['USER_TOKEN']
 
 # Initializing discord client
 client = discord.Client(intents=discord.Intents.default())
