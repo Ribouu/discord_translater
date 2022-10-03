@@ -1,18 +1,21 @@
 # First, we need to import the discord and random library
 import discord
 import random
+import os
+from dotenv import load_dotenv
 
 # We'll need the user id and a client id for the bot
-user_id = 'the_id'
-client_id = 'the_second_id'
+load_dotenv()
+client_id = os.environ['BOT_TOKEN']
+user_id = os.environ['USER_TOKEN']
 
 # Initializing discord client
-client = discord.Client()
+client = discord.Client(intents=discord.Intents.default())
 
 # Words that trigger the bot
 words = [ # Examples in french
-        "je re",
-        "je reviens", "je vais revenir"
+        "je re","Je re",
+        "je reviens", "revenir"
         ]
 
 # Another scenario
@@ -47,7 +50,7 @@ async def on_message(message):
         # We go through the words list
         for i in range(len(words)):
             # If a word matches with a word in the message content :
-            if words[i] in message.content.lower():
+            if words[i] in message.content:
                 # The bot answers with a random answer of the answers list
                 await message.channel.send(random.choice(answers))
                 # Then we break the for loop.
