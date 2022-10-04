@@ -16,10 +16,10 @@ words = [ # Examples in french
         "je reviens", "revenir"
         ]
 
-# Another scenario
-music_words = [
-                ";;p", ";;play"
-                ]
+# # Another scenario
+# music_words = [
+#                 ";;p", ";;play"
+#                 ]
 
 # Answers of the bot
 answers = [ # Again, examples in french
@@ -34,10 +34,10 @@ answers = [ # Again, examples in french
             "Il nous dit : \"Le vocal était mieux avant donc salut\""
             ]
 
-# Answers for the second scenario
-music_answers = [
-            "Sacré zikos celui-là"
-            ]
+# # Answers for the second scenario
+# music_answers = [
+#             "Sacré zikos celui-là"
+#             ]
 
 # Bot behavior :
 @client.event
@@ -53,11 +53,11 @@ async def on_message(message):
                 await message.channel.send(random.choice(answers))
                 # Then we break the for loop.
                 break 
-        # The same thing for the second scenario
-        for i in range(len(music_words)):
-            if music_words[i] in message.content:
-                await message.channel.send(random.choice(music_answers))
-                break
+        # # The same thing for the second scenario
+        # for i in range(len(music_words)):
+        #     if music_words[i] in message.content:
+        #         await message.channel.send(random.choice(music_answers))
+        #         break
 
 # Run the script
 if __name__ == '__main__':
